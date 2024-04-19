@@ -9,6 +9,7 @@ __global__ void checkIndex(void)
 }
 int main(int argc,char **argv)
 {
+  
   int nElem=6;
   dim3 block(3);
   dim3 grid((nElem+block.x-1)/block.x);
